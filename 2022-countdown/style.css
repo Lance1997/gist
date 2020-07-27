@@ -1,0 +1,15 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('font/Open_Sans/OpenSans-Light.ttf');
+  }
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: myFirstFont,'Montserrat', sans-serif;
+    font-weight: 600;
+}
