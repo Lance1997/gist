@@ -115,6 +115,10 @@ img {
     body {
         height: auto;
     }
+    .login-form input[type='email']:focus,
+    .login-form input[type='password']:focus {
+        border:none;
+    }
     .login-form input[type='email'],
     .login-form input[type='password'] {
         border: 3px solid green;
