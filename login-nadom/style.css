@@ -98,7 +98,7 @@ img {
         overflow: scroll;
     }
     main {
-        width: 70%;
+        width: 85%;
         flex-direction: column;
     } 
     section,form {
@@ -114,9 +114,6 @@ img {
 @media (max-width: 20em) {
     body {
         height: auto;
-    }
-    main {
-        width: 85%;
     }
     .login-form input[type='email'],
     .login-form input[type='password'] {
