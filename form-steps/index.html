@@ -20,6 +20,81 @@
     <title>Multi Step Form -- Registration Page</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    
+    <main>
+        <div class="container">
+            <form action="#">
+            <div id="joinForm" class="container_form">
+                <h3>JOIN MASTER LEARNING</h3>
+                <!-- ask for email -->
+                <label for="email">Email</label>  <br />
+                <input type="email" name="email" id="email" required>
+                <!-- ask for password -->
+                <label for="password">Password</label>  <br />
+                <input type="password" name="password" id="password" required> 
+                <!-- ask to confirm password -->
+                <label for="confirm-pass">Confirm Password</label>  <br />
+                <input type="password" name="confirm-password" id="confirm-pass" required>
+
+                <div class="container_btnBox">
+                    <button id="Next1" type="button">Next</button>
+                </div>
+            </div>
+
+            <div id="personalForm" class="container_form">
+                <h3>PERSONAL INFORMATION</h3>
+                <!-- ask for first name -->
+                <label for="fname">First name</label>  <br />
+                <input type="text" name="fname" id="fname" required>
+                <!-- ask for last name -->
+                <label for="lname">Last Name</label>  <br />
+                <input type="text" name="lname" id="lname" required>
+                <!-- ask for telephone number -->
+                <label for="mobile">Telephone number</label>  <br />
+                <input type="tel" name="mobile" id="mobile" required> 
+
+                <div class="container_btnBox">
+                    <button id="Back1" type="button">Back</button>
+                    <button id="Next2" type="button">Next</button>
+                </div>
+            </div>
+
+            <div id="socialForm" class="container_form">
+                <h3>SOCIAL INFORMATION</h3>
+                <!-- ask for linkedin creds -->
+                <label for="linkedin">Linkedin</label>  <br />
+                <input type="text" name="linkedin" id="linkedin" >
+                <!-- ask for facebook creds -->
+                <label for="facebook">Facebook</label>  <br />
+                <input type="text" name="facebook" id="facebook" > 
+                <!-- ask for github  creds -->
+                <label for="github">Github</label>  <br />
+                <input type="text" name="github" id="github">
+
+                <div class="container_btnBox">
+                    <button id="Back2" type="button">Back</button>
+                    <button type="button">Join</button>
+                </div>
+            </div>
+
+            <div class="container_stepRow">
+                <div id="container_stepRow-progress">
+
+                </div>
+                <div class="container_stepRow-col">
+                    Step 1
+                </div>
+                <div class="container_stepRow-col">
+                    Step 2
+                </div>
+                <div class="container_stepRow-col">
+                    Step 3
+                </div>
+            </div>
+            </form>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
 </body>
 </html>
